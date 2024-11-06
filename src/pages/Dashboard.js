@@ -1,12 +1,17 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
+import WelcomeSection from '../components/dashboard/WelcomeSection';
+
 
 const Dashboard = () => {
   const navigate = useNavigate();
 
   return (
     <Box sx={{ p: 4 }}>
+      {/* Render the WelcomeSection at the top */}
+      <WelcomeSection />
+
       <Typography variant="h4" gutterBottom>
         Dashboard
       </Typography>
@@ -34,4 +39,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard; 
+export default Dashboard;

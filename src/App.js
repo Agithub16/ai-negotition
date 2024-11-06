@@ -8,6 +8,8 @@ import TacticsLibrary from './pages/TacticsLibrary';
 import Simulation from './pages/Simulation';
 import Settings from './pages/Settings';
 import theme from './theme';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
